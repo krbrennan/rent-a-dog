@@ -1,0 +1,22 @@
+.nav {
+    z-index: 1;
+    position: absolute;
+    padding: 2em;
+    width: 100%;
+    /* background-color: #282c34; */
+    color: black;
+    display: block;
+}
+
+.nav > ul > a {
+    font-size: 125%;
+    padding: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 30px;
+    color: #282c34;
+}
+
+.nav > ul > a:hover {
+    color: rgba(158, 173, 241, 0.966);
+}
