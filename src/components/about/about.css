@@ -12,8 +12,7 @@ section {
 }
 
 .about-left {
-    height:100%;
-    /* background: yellow; */
+    height: 100%;
     display: flex;
     width: 50%;
     justify-content: center;
@@ -33,7 +32,6 @@ section {
     margin-top: 3em;
     display: flex;
     width:90%;
-    /* background: green; */
 }
 .about-main-text {
     text-align: left;
@@ -67,6 +65,7 @@ section {
     justify-content: center;
 }
 .about-right-text {
+    overflow: hidden;
     margin-top: 3em;
     display: flex;
     width: 100%;
@@ -79,7 +78,7 @@ section {
 }
 .about-right-card {
     width: 40%;
-    margin: 1em 0;
+    /* margin: 0.5em 0; */
     background: white;
 }
 
@@ -93,6 +92,11 @@ span {
     font-size: 14px;
     font-weight: 100;
     line-height: 1.5em;
+}
+
+.about-right-card-text > p > a {
+    text-decoration: none;
+    color: rgb(22, 22, 238);
 }
 
 .about-icon {

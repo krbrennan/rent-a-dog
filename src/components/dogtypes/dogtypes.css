@@ -1,0 +1,77 @@
+.dogTypesSection {
+    background: rgba(179, 177, 177, 0.274);
+    height: 100vh;
+}
+
+.content {
+    margin: 1em auto;
+    display:flex;
+    width:90%;
+    height: 100%;
+}
+
+.content-left {
+    justify-content: left;
+    width: 40%;
+    margin: 3em 0;
+}
+
+.content-left-top-text {
+    /* margin: 2em; */
+    text-align: left;
+    /* background: yellow; */
+}
+.main-text {
+    color: rgba(151, 36, 1, 0.884);
+    font-size: 200%;
+    font-weight: 700;
+}
+.sub-text {
+    color: #282c34;
+    /* font-size: 115%; */
+    font-size: 14px;
+}
+
+.content-left-paragraph {
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    /* background: wheat; */
+}
+.meet-our-dogs {
+    margin-top: 1em;
+    margin-left: 1.5em;
+    width: 50%;
+    height: 60px;
+    border-radius: 40px;
+    background: rgba(151, 36, 1, 0.884);
+    border: none;
+    color: white;
+    font-size: 110%;
+    float: left;
+}
+
+.content-left-paragraph > p {
+    width: 90%;
+    line-height: 1.25em;
+    /* padding: 0.5em; */
+    float: left;
+}
+
+
+/* right-side content */
+
+.content-right {
+    margin: 3em 0;
+    width: 60%;
+    /* background:green; */
+}
+.content-right-images {
+    display: flex;
+}
+.content-right-image-div {
+    margin-top: 2em;
+}
+.content-right-image-div > img {
+   width:90%;
+}

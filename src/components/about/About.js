@@ -30,7 +30,7 @@ function About(){
                             <div className='about-right-card-text-box'>
                                 <span>Bonded and Insured</span>
                                 <div class='about-right-card-text'>
-                                <p>As a proud member of <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel='noreferrer'>Dogs International</a>, our Company is bonded and insured through <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel='noreferrer'>Business Dogs of the Americas</a>.</p>
+                                <p>As a proud member of <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">Dogs International</a>, our Company is bonded and insured through <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">Business Dogs of the Americas</a>.</p>
                                 </div>
                             </div>
                         </div>
