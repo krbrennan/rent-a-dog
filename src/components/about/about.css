@@ -1,0 +1,101 @@
+
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.about-info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-left {
+    height:100%;
+    /* background: yellow; */
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+
+.about-left-top-text {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    text-align: left;
+    color: #282c34;
+}
+
+.about-left-text {
+    line-height: 1.75em;
+    margin-top: 3em;
+    display: flex;
+    width:90%;
+    /* background: green; */
+}
+.about-main-text {
+    text-align: left;
+    max-width: 80%;
+    font-size: 200%;
+    color: rgba(151, 36, 1, 0.884);
+}
+.meet-our-dogs {
+    margin-top: 1em;
+    width: 50%;
+    height: 60px;
+    border-radius: 40px;
+    background: rgba(151, 36, 1, 0.884);
+    border: none;
+    color: white;
+    font-size: 110%;
+}
+.meet-our-dogs:hover {
+    background-color: #282c34;
+    cursor: pointer;
+}
+
+
+/* right side */
+
+.about-right {
+    height: 100%;
+    /* background: black; */
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.about-right-text {
+    margin-top: 3em;
+    display: flex;
+    width: 100%;
+    /* background: green; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.about-right-card {
+    width: 40%;
+    margin: 1em 0;
+    background: white;
+}
+
+span {
+    font-size: 135%;
+    color: #282c34;
+    font-weight: 800;
+}
+
+.about-right-card-text > p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.5em;
+}
+
+.about-icon {
+    font-size: 40px;
+    padding: 10px;
+}

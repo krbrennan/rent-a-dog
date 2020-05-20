@@ -1,15 +1,16 @@
 .nav {
     z-index: 1;
-    position: absolute;
+    /* position: absolute; */
     padding: 2em;
     width: 100%;
     /* background-color: #282c34; */
     color: black;
     display: block;
+    position: fixed;
 }
 
 .nav > ul > a {
-    font-size: 125%;
+    font-size: 105%;
     padding: 1em;
     font-weight: 600;
     text-decoration: none;

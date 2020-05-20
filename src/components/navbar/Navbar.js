@@ -8,7 +8,7 @@ function Navbar(){
         <nav className='nav'>
             <ul>
                 <a href="#">Home</a>
-                <a href="#">About</a>
+                <a href="#">About Us</a>
                 <a href="#">Checkout our Pups!</a>
                 <a href="#">Pricing and Expectations</a>
             </ul>
