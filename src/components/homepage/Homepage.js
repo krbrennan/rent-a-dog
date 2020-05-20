@@ -13,6 +13,10 @@ function Homepage() {
     return (
         <div>
             <section className='hero'>
+                <div className='intro-text'>
+                    <p className='intro-text-p'>Professional Shelter with an Altruistic Side-Hustle</p>
+                    <h1>Rent-a-Dog</h1>
+                </div>
             </section>
             <About />
             <DogTypes />

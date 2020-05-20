@@ -9,4 +9,25 @@
     height: 100vh;
 
     backdrop-filter: contrast(1%);
+
+    display: flex;
+    justify-content: center;
+}
+
+.intro-text {
+    /* background: yellow; */
+    width: 80%;
+    position: absolute;
+    margin-top: 10%;
+    justify-content: center;
+}
+.intro-text-p {
+    font-size: 30px;
+    color: #282c34;
+}
+.intro-text > h1 {
+    font-weight: 800;
+    font-size: 60px;
+    color: rgba(151, 36, 1, 0.884);
+    mix-blend-mode: multiply;
 }
