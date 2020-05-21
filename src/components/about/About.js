@@ -26,7 +26,7 @@ function About(){
                 <div className='about-right'>
                     <div className='about-right-text'>
                         <div className='about-right-card'>
-                            <i class="far fa-money-bill-alt about-icon"></i>
+                            <i className="far fa-money-bill-alt about-icon"></i>
                             <div className='about-right-card-text-box'>
                                 <span>Bonded and Insured</span>
                                 <div class='about-right-card-text'>
@@ -36,7 +36,7 @@ function About(){
                         </div>
                         
                         <div className='about-right-card'>
-                            <i class="fas fa-graduation-cap about-icon"></i>
+                            <i className="fas fa-graduation-cap about-icon"></i>
                             <div className='about-right-card-text-box'>
                                 <span>Screened Dogs</span>
                                 <div class='about-right-card-text'>
@@ -45,7 +45,7 @@ function About(){
                             </div>
                         </div>
                         <div className='about-right-card'>
-                            <i class="fas fa-mobile-alt about-icon"></i>
+                            <i className="fas fa-mobile-alt about-icon"></i>
                             <div className='about-right-card-text-box'>
                                 <span>Client App</span>
                                 <div class='about-right-card-text'>
@@ -55,7 +55,7 @@ function About(){
                         </div>
 
                         <div className='about-right-card'>
-                            <i class="far fa-comment about-icon"></i>
+                            <i className="far fa-comment about-icon"></i>
                             <div className='about-right-card-text-box'>
                                 <span>Direct Messaging</span>
                                 <div class='about-right-card-text'>
@@ -77,7 +77,7 @@ function About(){
                         </div>
 
                         <div className='about-right-card'>
-                            <i class="fas fa-dog about-icon"></i>
+                            <i className="fas fa-dog about-icon"></i>
                             <div className='about-right-card-text-box'>
                                 <span>Find a Pup that Matches your Personality</span>
                                 <div class='about-right-card-text'>

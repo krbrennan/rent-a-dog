@@ -6,6 +6,7 @@
 
 .content {
     margin: 1em auto;
+    margin-bottom: 0;
     display:flex;
     width:90%;
     height: 100%;
@@ -61,8 +62,7 @@
     word-spacing: 0.25em;
     width: 90%;
     line-height: 1.25em;
-    /* padding: 0.5em; */
-    float: left;
+    text-align: left;
 }
 
 

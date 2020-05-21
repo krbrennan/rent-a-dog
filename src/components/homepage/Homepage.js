@@ -4,6 +4,7 @@ import img from './hero-img.jpg';
 // Components
 import About from '../about/About.js';
 import DogTypes from '../dogtypes/Dogtypes.js';
+import Footer from '../footer/Footer.js';
 
 // Styling
 import './homepage.css';
@@ -15,11 +16,12 @@ function Homepage() {
             <section className='hero'>
                 <div className='intro-text'>
                     <p className='intro-text-p'>Professional Shelter with an Altruistic Side-Hustle</p>
-                    <h1>Rent-a-Dog</h1>
+                    <h1 className='hero-text'>Rent-a-Dog</h1>
                 </div>
             </section>
             <About />
             <DogTypes />
+            <Footer />
         </div>
     )
 }
