@@ -39,8 +39,26 @@ section {
     font-size: 200%;
     color: rgba(151, 36, 1, 0.884);
 }
+
+
+.download-app {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    /* border: 4px solid yellow; */
+}
+#about-section > div > div.about-left > div > div > div.download-app > button {
+    margin: 0 auto;
+}
+#about-section > div > div.about-left > div > div > div.download-app > button > a {
+    text-decoration: none;
+    color: white;
+}
 .meet-our-dogs {
-    margin-top: 1em;
+    /* margin-top: 1em; */
+    margin: 0 auto;
     width: 50%;
     height: 60px;
     border-radius: 40px;
@@ -54,6 +72,10 @@ section {
     cursor: pointer;
 }
 
+.meet-our-dogs-p {
+    font-weight: 700;
+    font-size: 120%;
+}
 
 /* right side */
 

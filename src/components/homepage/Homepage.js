@@ -4,6 +4,7 @@ import img from './hero-img.jpg';
 // Components
 import About from '../about/About.js';
 import DogTypes from '../dogtypes/Dogtypes.js';
+import Pricing from '../pricing/Pricing.js';
 import Footer from '../footer/Footer.js';
 
 // Styling
@@ -21,6 +22,7 @@ function Homepage() {
             </section>
             <About />
             <DogTypes />
+            <Pricing />
             <Footer />
         </div>
     )

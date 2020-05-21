@@ -23,15 +23,9 @@
 }
 .intro-text-p {
     font-size: 30px;
-    color: #282c34;
+    color: rgba(40, 44, 52, 1);
     margin-bottom: 0;
 }
-/* .intro-text > h1 {
-    font-weight: 800;
-    font-size: 60px;
-    color: rgba(151, 36, 1, 0.884);
-    mix-blend-mode: multiply;
-} */
 
 .hero-text {
     margin-top: 0;

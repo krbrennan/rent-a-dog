@@ -5,7 +5,7 @@ import './about.css';
 
 function About(){
     return(
-        <section>
+        <section className='aboot' id='about-section'>
             <header>
             </header>
             <div className='about-info'>
@@ -18,7 +18,10 @@ function About(){
                                 <p>We have a stellar team of dogs just waiting to give you all their love.  Every pup we have is fully trained and our staff of full-time trainers and groomers ensure that every dog is capable of handling different people and environments and that they always look beautiful doing so!</p>
                                 <p>At some point everyone needs someone or something to cheer them up. Our dogs are always ready to love and they don't know or care about all of life's problems.</p>
                             </div>
-                            <button className='meet-our-dogs'>MEET OUR DOGS</button>
+                            <div className='download-app'>
+                                <p className='meet-our-dogs-p'>To Meet our Dogs:</p>
+                                <button className='meet-our-dogs'><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">DOWNLOAD THE APP</a></button>
+                            </div>
                         </div>
                         
                     </div>
