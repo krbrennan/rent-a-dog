@@ -19,8 +19,8 @@ function About(){
                                 <p>At some point everyone needs someone or something to cheer them up. Our dogs are always ready to love and they don't know or care about all of life's problems.</p>
                             </div>
                             <div className='download-app'>
-                                <p className='meet-our-dogs-p'>To Meet our Dogs:</p>
-                                <button className='meet-our-dogs'><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">DOWNLOAD THE APP</a></button>
+                                <p className='meet-our-dogs'>To Meet our Dogs:</p>
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer"><button className='meet-our-dogs'>DOWNLOAD THE APP</button></a>
                             </div>
                         </div>
                         

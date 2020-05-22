@@ -1,0 +1,38 @@
+$primaryColor: rgba(151, 36, 1, 0.884);
+$secondaryColor: rgba(40, 44, 52, 1);
+$primaryShadow: $secondaryColor 2px 2px 8px;
+$alternateDivBackground: rgba(179, 177, 177, 0.1);
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 20rem;
+    background: $alternateDivBackground;
+
+    .contact-div {
+        color: $primaryColor;
+        font-size: 3rem;
+        margin-bottom: 4rem;
+
+        .phone {
+            color: $secondaryColor;
+            font-size: 2rem;
+        }
+    }
+    .email-div {
+        padding-bottom: 2rem;
+        margin: 0 auto;
+        max-width: 50%;
+        border: 1px solid grey;
+        justify-content: center;
+        border-radius: 3rem;
+
+        p {
+            color: $primaryColor;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}

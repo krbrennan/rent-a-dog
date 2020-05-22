@@ -19,9 +19,7 @@
 }
 
 .content-left-top-text {
-    /* margin: 2em; */
     text-align: left;
-    /* background: yellow; */
 }
 .main-text {
     color: rgba(151, 36, 1, 0.884);
@@ -30,47 +28,12 @@
 }
 .sub-text {
     color: #282c34;
-    /* font-size: 115%; */
     font-size: 18px;
 }
 
 .content-left-paragraph {
-    /* justify-content: left; */
     display: flex;
     flex-direction: column;
-    /* background: wheat; */
-}
-.content-left-paragraph > button {
-    /* margin: 0 auto; */
-    margin-left: 20%;
-    margin-top: 2em;
-}
-
-.download-app {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-div.content-left-paragraph > div > button {
-    margin: 0 auto;
-}
-
-div.content-left-paragraph > div > button > a {
-    text-decoration: none;
-    color: white;
-}
-.meet-our-dogs {
-    margin-top: 1em;
-    margin-left: 1.5em;
-    width: 50%;
-    height: 60px;
-    border-radius: 40px;
-    background: rgba(151, 36, 1, 0.884);
-    border: none;
-    color: white;
-    font-size: 110%;
-    float: left;
 }
 
 .content-left-paragraph > p {
@@ -97,6 +60,7 @@ div.content-left-paragraph > div > button > a {
 }
 .content-right-image {
    width:400px;
+   border-radius: 2rem;
 }
 
 .dog-name {

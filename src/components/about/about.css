@@ -5,6 +5,7 @@ section {
 }
 
 .about-info {
+    padding-top: 3rem;
     height: 100%;
     width: 100%;
     display: flex;
@@ -31,7 +32,7 @@ section {
     line-height: 1.75em;
     margin-top: 3em;
     display: flex;
-    width:90%;
+    min-width:90%;
 }
 .about-main-text {
     text-align: left;
@@ -42,29 +43,35 @@ section {
 
 
 .download-app {
+    border: 1px solid grey;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 2rem;
     padding: 2em;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     /* border: 4px solid yellow; */
+    align-items: center;
 }
-#about-section > div > div.about-left > div > div > div.download-app > button {
-    margin: 0 auto;
-}
-#about-section > div > div.about-left > div > div > div.download-app > button > a {
+
+
+#about-section > div > div.about-left > div > div > div.download-app > a > button {
     text-decoration: none;
     color: white;
-}
-.meet-our-dogs {
-    /* margin-top: 1em; */
-    margin: 0 auto;
-    width: 50%;
-    height: 60px;
+    /* width: 120%; */
     border-radius: 40px;
     background: rgba(151, 36, 1, 0.884);
+
+    margin: 0;
+}
+.meet-our-dogs {
+    font-weight: 800;
+    /* margin-top: 1em; */
+    margin: 0 auto;
+    /* width: 50%; */
+    height: 60px;
     border: none;
-    color: white;
     font-size: 110%;
 }
 .meet-our-dogs:hover {
@@ -74,7 +81,7 @@ section {
 
 .meet-our-dogs-p {
     font-weight: 700;
-    font-size: 120%;
+    /* font-size: 40rem; */
 }
 
 /* right side */

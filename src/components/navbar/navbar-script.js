@@ -6,7 +6,7 @@ function darkenNav(){
     // at a certain viewHeight the navBar will darken and the text its contains will lighten for visibility
     const nav = document.getElementById('navbar');
     const navLinks = document.getElementsByClassName('nav-links');
-    nav.style.background = 'rgba(40, 44, 52, 0.85)';
+    nav.style.background = 'rgba(40, 44, 52, 0.55)';
     nav.style.background.opacity = '0.2';
     for (let index = 0; index < navLinks.length; index++) {
         navLinks[index].style.color = 'white'

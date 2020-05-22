@@ -21,10 +21,6 @@ function DogTypes() {
                         <p>
                             You might be wondering how we have so many hours of videos of each dog going about their day. Well, years ago we invested in a nanny-camera technology company and now we're able to have every dog fitted with a camera-collar. The camera allows us to study each dog after their visits and update their training regimen in addition to allowing us to ensure that our dogs aren't being mistreated in any way.
                         </p>
-                        <div className='download-app'>
-                                <p className='meet-our-dogs-p'>To Meet our Dogs:</p>
-                                <button className='meet-our-dogs'><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">DOWNLOAD THE APP</a></button>
-                            </div>
                     </div>
                 </div>
                 <div className='content-right'>

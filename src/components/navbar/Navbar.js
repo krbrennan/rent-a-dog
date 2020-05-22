@@ -14,7 +14,8 @@ function Navbar(){
                 <a className='nav-links' href="#">Home</a>
                 <a className='nav-links' href="#about-section">About Us</a>
                 {/* <a className='nav-links' href="#MeetDogs">Checkout our Pups!</a> */}
-                <a className='nav-links' href="#">Pricing and Expectations</a>
+                <a className='nav-links' href="#pricing-section">Pricing</a>
+                <a className='nav-links' href="#contact">Contact Us!</a>
             </ul>
         </nav>
     )
