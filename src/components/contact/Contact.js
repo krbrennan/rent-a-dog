@@ -7,10 +7,9 @@ function Contact() {
         <section className='contact' id='contact'>
             <div className='contact-div'>
                 <h1>Contact Us</h1>
-                <p className='phone'>Phone Number: 123-456-6667</p>
+                <p className='phone'>123-456-6667</p>
                 <div className='email-div'>
-                    <p>Email us at:</p> 
-                    <a href="mailto:dogsForAll@gmail.com">dogsForAll@gmail.com</a>
+                    <a className='email-anchor' href="mailto:dogsForAll@gmail.com">dogsForAll@gmail.com</a>
                 </div>
             </div>
         </section>

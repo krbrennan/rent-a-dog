@@ -1,8 +1,5 @@
 import React from 'react';
 
-
-import MeetDogs from '../meetDogs/MeetDogs.js';
-
 import './navbar-script.js';
 
 import './navbar.css';

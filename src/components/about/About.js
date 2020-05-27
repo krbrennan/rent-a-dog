@@ -20,7 +20,7 @@ function About(){
                             </div>
                             <div className='download-app'>
                                 <p className='meet-our-dogs'>To Meet our Dogs:</p>
-                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer"><button className='meet-our-dogs'>DOWNLOAD THE APP</button></a>
+                                <a className='meet-our-dogs-btn' href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer"><button className='meet-our-dogs'>DOWNLOAD THE APP</button></a>
                             </div>
                         </div>
                         

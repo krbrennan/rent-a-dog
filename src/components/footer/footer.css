@@ -2,6 +2,7 @@ footer {
     height: 3em;
     margin: 0;
     padding:0;
+    width: 100vw;
 }
 
 .footer-ul {
@@ -23,4 +24,10 @@ footer {
 }
 .footer-ul > li > a:hover {
     color: blue;
+}
+
+@media (max-width: 590px) {
+    .footer-ul > li {
+        font-size: 12px;
+    }
 }

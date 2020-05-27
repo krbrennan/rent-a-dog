@@ -2,7 +2,7 @@
     z-index: 1;
     /* position: absolute; */
     padding: 1rem;
-    width: 100%;
+    width: 100vw;
     /* background-color: #282c34; */
     transition-duration: 500ms;
     color: black;
@@ -11,7 +11,7 @@
 }
 
 .nav > ul > a {
-    font-size: 105%;
+    font-size: 1rem;
     padding: 1em;
     font-weight: 600;
     text-decoration: none;
@@ -21,4 +21,13 @@
 
 .nav > ul > a:hover {
     color: rgba(30, 60, 121, 0.85);
+}
+
+@media (max-width: 700px ) {
+    .nav {
+        display: none;
+        padding:0;
+        margin: 0;
+        content: " ";
+    }
 }

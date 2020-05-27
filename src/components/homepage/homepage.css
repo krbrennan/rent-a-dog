@@ -1,3 +1,4 @@
+
 .hero {
     position: relative;
     background-image: url('./hero-img.jpg');
@@ -32,5 +33,15 @@
     font-weight: 800;
     font-size: 60px;
     color: rgba(151, 36, 1, 0.884);
+    /* text-shadow: none; */
     mix-blend-mode: multiply;
+}
+
+@media (max-width: 1000px) {
+    .hero {
+        /* position:relative; */
+        /* width:100vw; */
+        background-size: cover;
+        resize: both;
+    }
 }

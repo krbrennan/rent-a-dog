@@ -4,10 +4,6 @@ $secondaryColor: rgba(40, 44, 52, 1);
 $primaryShadow: $secondaryColor 2px 2px 8px;
 $alternateDivBackground: rgba(179, 177, 177, 0.1);
 
-
-
-
-
 .pricing-section {
     height: auto;
     width: 100vw;
@@ -30,15 +26,14 @@ $alternateDivBackground: rgba(179, 177, 177, 0.1);
     }
 }
 
+
 .how-it-works-steps {
     margin: 0 auto;
     height: 100%;
-    // width: 95%;
     background: white;
     display: flex;
     flex-direction: column;
     align-content: center;
-    // overflow: hidden;
 
     .step {
         width: 100%;
@@ -46,10 +41,7 @@ $alternateDivBackground: rgba(179, 177, 177, 0.1);
         flex-direction: column;
         padding-top: 1rem; 
         align-content: center;
-    }
-    .step:nth-child(2n+1){
-        background: $alternateDivBackground;
-        padding-top: 1rem;
+        margin-top: 2rem;
     }
 
     .step-p {
@@ -64,12 +56,13 @@ $alternateDivBackground: rgba(179, 177, 177, 0.1);
 
     .step-info {
         font-size: 2rem;
-        // margin: 4rem;
+        border-bottom: 2px solid black;
         padding-bottom: 4rem;
         font-weight: 300;
         padding-top: 2rem;
         margin: 0 auto;
         width: 90%;
         max-width: 40%;
+        padding-top: 2rem;
     }
 }

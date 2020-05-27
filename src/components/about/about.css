@@ -53,6 +53,7 @@ section {
     justify-content: center;
     /* border: 4px solid yellow; */
     align-items: center;
+    width: 50%;
 }
 
 
@@ -67,15 +68,15 @@ section {
 }
 .meet-our-dogs {
     font-weight: 800;
-    /* margin-top: 1em; */
     margin: 0 auto;
-    /* width: 50%; */
     height: 60px;
     border: none;
     font-size: 110%;
+    transition: all 500ms ease-in-out;
 }
-.meet-our-dogs:hover {
-    background-color: #282c34;
+#about-section > div > div.about-left > div > div > div.download-app > a > button:hover {
+    /* background-color: #282c34; */
+    transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -118,7 +119,7 @@ span {
 }
 
 .about-right-card-text > p {
-    font-size: 14px;
+    /* font-size: 14px; */
     font-weight: 100;
     line-height: 1.5em;
 }

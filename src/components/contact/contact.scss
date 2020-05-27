@@ -3,11 +3,19 @@ $secondaryColor: rgba(40, 44, 52, 1);
 $primaryShadow: $secondaryColor 2px 2px 8px;
 $alternateDivBackground: rgba(179, 177, 177, 0.1);
 
+h1 {
+    text-shadow: $primaryShadow;
+    margin: 0;
+    font-size: 4rem;
+    color: $primaryColor;
+}
+
 .contact {
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 20rem;
+    height: 20rem;
     background: $alternateDivBackground;
 
     .contact-div {
@@ -21,18 +29,18 @@ $alternateDivBackground: rgba(179, 177, 177, 0.1);
         }
     }
     .email-div {
-        padding-bottom: 2rem;
         margin: 0 auto;
-        max-width: 50%;
-        border: 1px solid grey;
         justify-content: center;
-        border-radius: 3rem;
-
-        p {
-            color: $primaryColor;
-        }
         a {
+            background:yellow;
+            font-size: 5vw;
             text-decoration: none;
         }
+    }
+}
+
+@media (max-width: 350px) {
+    .email-div > a {
+        font-size: 5px;
     }
 }

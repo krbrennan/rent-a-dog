@@ -1,3 +1,13 @@
+* {
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+
+body {
+  /* background:blue; */
+  /* max-width: 2vw; */
+}
 
 html {
   scroll-behavior: smooth;
@@ -28,3 +38,9 @@ html {
   color: #61dafb;
 }
 
+@media (max-width: 700px) {
+  p {
+    font-size: 65%;
+  }
+
+}
