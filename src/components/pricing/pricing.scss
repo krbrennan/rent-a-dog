@@ -10,8 +10,6 @@ $alternateDivBackground: rgba(179, 177, 177, 0.1);
 }
 
 .pricing-div {
-    // max-width: 90vw;
-    // background: wheat;
     padding-top: 2rem;
     height: 100%;
     margin: 0 auto;
@@ -20,12 +18,11 @@ $alternateDivBackground: rgba(179, 177, 177, 0.1);
         h1 {
             text-shadow: $primaryShadow;
             margin: 0;
-            font-size: 4rem;
+            font-size: 50px;
             color: $primaryColor;
         }
     }
 }
-
 
 .how-it-works-steps {
     margin: 0 auto;
@@ -39,7 +36,6 @@ $alternateDivBackground: rgba(179, 177, 177, 0.1);
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding-top: 1rem; 
         align-content: center;
         margin-top: 2rem;
     }
@@ -47,7 +43,6 @@ $alternateDivBackground: rgba(179, 177, 177, 0.1);
     .step-p {
         width: 4rem;
         border-radius: 5rem;
-        height: 4rem;
         background: $primaryColor;
         font-size: 3rem;
         margin: 0 auto;
@@ -55,7 +50,7 @@ $alternateDivBackground: rgba(179, 177, 177, 0.1);
     }
 
     .step-info {
-        font-size: 2rem;
+        font-size: 24px;
         border-bottom: 2px solid black;
         padding-bottom: 4rem;
         font-weight: 300;
@@ -64,5 +59,24 @@ $alternateDivBackground: rgba(179, 177, 177, 0.1);
         width: 90%;
         max-width: 40%;
         padding-top: 2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    #pricing-section > div > div.how-it-works-steps > div > p.step-info {
+        min-width: 80%;
+    }
+    .pricing-div {
+        padding-top: 0;
+    }
+    #pricing-section > div > div.pricing-title {
+        padding-bottom: 0;
+    }
+    div.how-it-works-steps > div > p.step-info {
+        font-size: 1rem;
+    }
+
+    #pricing-section > div > div.pricing-title > h1 {
+        font-size: 3em;
     }
 }

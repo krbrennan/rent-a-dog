@@ -4,10 +4,10 @@ import './pricing.scss';
 
 function Pricing(){
     return(
-        <section id='pricing-section' className='pricing-section'>
+        <section id='pricing-section' className='pricing-section section'>
             <div className='pricing-div'>
                 <div className='pricing-title'>
-                    <h1>How it Works</h1>
+                    <h1 className='top-text'>How it Works</h1>
                 </div>
                 <div className='how-it-works-steps'>
 

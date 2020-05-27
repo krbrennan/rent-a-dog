@@ -5,7 +5,7 @@ section {
 }
 
 .about-info {
-    padding-top: 3rem;
+    padding-top: 30px;
     height: 100%;
     width: 100%;
     display: flex;
@@ -63,7 +63,6 @@ section {
     /* width: 120%; */
     border-radius: 40px;
     background: rgba(151, 36, 1, 0.884);
-
     margin: 0;
 }
 .meet-our-dogs {
@@ -133,3 +132,25 @@ span {
     font-size: 40px;
     padding: 10px;
 }
+
+@media (max-width: 700px) {
+    .section {
+      padding-top: 0;
+    }
+    .about-info {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-left {
+        width: 90%;
+    }
+    .about-left-text {
+        margin-top: 0;
+    }
+    .about-right {
+        width: 90%;
+    }
+    .download-app {
+        margin: 0 auto;
+    }
+  }

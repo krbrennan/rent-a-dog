@@ -8,7 +8,7 @@ function About(){
         <section className='aboot' id='about-section'>
             <header>
             </header>
-            <div className='about-info'>
+            <div className='about-info section'>
                 <div className='about-left'>
                     <div className='about-left-text'>
                         <div className='about-left-top-text'>
