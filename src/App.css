@@ -1,21 +1,10 @@
-* {
-  /* margin: 0;
-  padding: 0;
-  box-sizing: border-box; */
-}
-
-body {
-  /* background:blue; */
-  /* max-width: 2vw; */
-}
-
 html {
   scroll-behavior: smooth;
 }
 
 .App {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Chelsea Market', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -42,6 +31,4 @@ html {
   p {
     font-size: 65%;
   }
-
-
 }

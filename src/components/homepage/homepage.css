@@ -21,14 +21,11 @@
     background-repeat: no-repeat;
     min-width: 800px;
 
-    backdrop-filter: contrast(80%);
-
     display: flex;
     justify-content: center;
 }
 
 .intro-text {
-    /* background: yellow; */
     width: 80%;
     position: absolute;
     margin-top: 10%;
