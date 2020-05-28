@@ -3,6 +3,7 @@ import React from 'react';
 // Components
 import About from '../about/About.js';
 import DogTypes from '../dogtypes/Dogtypes.js';
+import MeetDogs from '../meetDogs/MeetDogs.js';
 import Pricing from '../pricing/Pricing.js';
 import Contact from '../contact/Contact.js'
 import Footer from '../footer/Footer.js';
@@ -23,6 +24,7 @@ function Homepage() {
             </section>
             <About />
             <DogTypes />
+            <MeetDogs />
             <Pricing />
             <Contact />
             <Footer />

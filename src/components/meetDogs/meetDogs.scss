@@ -1,0 +1,106 @@
+
+#meetDogs {
+    // background: black;
+    // height: 1000px;
+    width:100vw;
+    height: auto;
+    display: flex;
+    overflow: auto;
+    position: relative;
+}
+.container {
+    max-width: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+
+    .meet-dogs-background {
+        position:relative;
+        background-position: center center;
+        background-size: cover;
+        height: 130vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        min-width: 800px;
+        justify-content: center;
+    }
+
+    h3 {
+        font-size: 35px;
+        top:8%;
+        position: absolute;
+    }
+
+    .card-container {
+        top: 20%;
+        max-width: 95vw;
+        position: absolute;
+        flex-direction: row;
+    
+        p {
+            font-size: 10px;
+        }
+        .card-ul {
+            height: inherit;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .card {
+            object-fit:cover;
+            padding: 5px;
+            // min-width: 150px;
+            width: 250px;
+            // min-height: 250px;
+            height: 250px;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .container h3 {
+        font-size: 2em;
+        // max-width: 80vw;
+    }
+    .card {
+        width:300px;
+        height: 300px;
+        max-height: 100px !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .container h3 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 589px) {
+    .container h3 {
+        max-width: 80vw;
+        font-size: 20px;
+    }
+    .meet-dogs-background {
+        top: 2%;
+        max-height: 100vh;
+    }
+    .card-container {
+        max-width: 100vw;
+        margin-top: 8%;
+    }
+    .card {
+        max-width:150px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 380px) {
+    .meet-dogs-background {
+        height: 150vh;
+    }
+}
