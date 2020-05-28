@@ -15,7 +15,7 @@ function Homepage() {
     return (
         <div>
             <section className='hero'>
-                <img className='hero-img' src={require('./hero-img.jpg')}></img>
+                <img className='hero-img' src={require('./hero.jpeg')}></img>
                 <div className='intro-text'>
                     <p className='intro-text-p'>Professional Shelter with an Altruistic Side-Hustle</p>
                     <h1 className='hero-text'>Rent-a-Dog</h1>
