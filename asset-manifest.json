@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/rent-a-dog/static/css/main.cbf59bb5.chunk.css",
+    "main.js": "/rent-a-dog/static/js/main.918c168a.chunk.js",
+    "main.js.map": "/rent-a-dog/static/js/main.918c168a.chunk.js.map",
+    "runtime-main.js": "/rent-a-dog/static/js/runtime-main.8ad67607.js",
+    "runtime-main.js.map": "/rent-a-dog/static/js/runtime-main.8ad67607.js.map",
+    "static/js/2.f5f8ccca.chunk.js": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js",
+    "static/js/2.f5f8ccca.chunk.js.map": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js.map",
+    "index.html": "/rent-a-dog/index.html",
+    "precache-manifest.166d4b165e6f232b2e4f2c7cd3654294.js": "/rent-a-dog/precache-manifest.166d4b165e6f232b2e4f2c7cd3654294.js",
+    "service-worker.js": "/rent-a-dog/service-worker.js",
+    "static/css/main.cbf59bb5.chunk.css.map": "/rent-a-dog/static/css/main.cbf59bb5.chunk.css.map",
+    "static/js/2.f5f8ccca.chunk.js.LICENSE.txt": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js.LICENSE.txt",
+    "static/media/happy-min.png": "/rent-a-dog/static/media/happy-min.243097ed.png",
+    "static/media/hero-img.jpg": "/rent-a-dog/static/media/hero-img.1baebb4e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ad67607.js",
+    "static/js/2.f5f8ccca.chunk.js",
+    "static/css/main.cbf59bb5.chunk.css",
+    "static/js/main.918c168a.chunk.js"
+  ]
+}
