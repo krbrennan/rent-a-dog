@@ -1,3 +1,6 @@
+# Check it out Live:
+## https://krbrennan.github.io/rent-a-dog/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
