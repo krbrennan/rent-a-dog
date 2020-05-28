@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e47e422b59fa35fdd443927871b36a9",
+    "revision": "9fcf6e364ce58032fe9531e1004c3c1b",
     "url": "/rent-a-dog/index.html"
   },
   {
-    "revision": "9401d6dab9201f4b164b",
-    "url": "/rent-a-dog/static/css/main.cbf59bb5.chunk.css"
+    "revision": "1c2ce13811044f6ad407",
+    "url": "/rent-a-dog/static/css/main.00a6c827.chunk.css"
   },
   {
     "revision": "6f1ccfb693631710abaa",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9401d6dab9201f4b164b",
-    "url": "/rent-a-dog/static/js/main.918c168a.chunk.js"
+    "revision": "1c2ce13811044f6ad407",
+    "url": "/rent-a-dog/static/js/main.9bcbcb77.chunk.js"
   },
   {
     "revision": "a4f6cd25e5291e8036f6",
@@ -29,6 +29,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "1baebb4e652e75068c532757372dfc85",
-    "url": "/rent-a-dog/static/media/hero-img.1baebb4e.jpg"
+    "url": "/rent-a-dog/static/media/hero.1baebb4e.jpeg"
   }
 ]);
