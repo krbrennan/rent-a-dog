@@ -25,21 +25,33 @@ h1 {
 
         .phone {
             color: $secondaryColor;
-            font-size: 2rem;
+            font-size: 30px;
         }
     }
     .email-div {
         margin: 0 auto;
         justify-content: center;
         a {
-            font-size: 5vw;
+            font-size: 30px;
             text-decoration: none;
         }
     }
 }
 
+@media (max-width: 450px) {
+    #contact > div > div > a {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 80%;
+    }
+    #contact > div > p {
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 350px) {
-    .email-div > a {
-        font-size: 5px;
+    #contact > div > div > a {
+        font-size: 15px;
     }
 }

@@ -11,7 +11,6 @@ function Footer(){
                 <li><a href='https://www.youtube.com/watch?v=oHg5SJYRHA0'>Blog</a></li>
                 <li><a href='https://www.youtube.com/watch?v=oHg5SJYRHA0'>Contact Us</a></li>
             </ul>
-
         </footer>
     )
 }

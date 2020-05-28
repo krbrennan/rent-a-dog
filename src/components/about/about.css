@@ -136,6 +136,7 @@ span {
 @media (max-width: 700px) {
     .section {
       padding-top: 0;
+      font-weight: 800;
     }
     .about-info {
         flex-direction: column;

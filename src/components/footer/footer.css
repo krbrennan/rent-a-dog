@@ -1,5 +1,4 @@
 footer {
-    height: 3em;
     margin: 0;
     padding:0;
     width: 100vw;
@@ -15,8 +14,9 @@ footer {
 }
 
 .footer-ul > li {
-    padding: 2em;
+    padding: 1em;
     font-size: 20px;
+    margin: 1em 0;
 }
 .footer-ul > li > a {
     color: white;
