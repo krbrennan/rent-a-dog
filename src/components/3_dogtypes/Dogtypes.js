@@ -5,10 +5,12 @@ import './dogtypes.css'
 function DogTypes() {
     return(
         <section className='dogTypesSection'>
+            <img className='background-img' src={require('./assets/blue-background.png')}></img>
             <div className='content'>
+
                 <div className='content-left'>
                     <div className='content-left-top-text'>
-                        <h1 className='main-text'>Personality Fit</h1>
+                        <h1 className='main-text'>Our Mission</h1>
                         <h4 className='sub-text'>Find a dog that fits YOU</h4>
                     </div>
                     <div className='content-left-paragraph'>
@@ -19,11 +21,11 @@ function DogTypes() {
                             Maybe you want a running-buddy or a dog to go on hikes with--we want to help you find a dog with a personality that coinsides with what you're seeking. With our services you can watch videos and look at up-to-date personality profiles of our pups which helps you get a well-rounded view to help you decide on what you'd like.
                         </p>
                         <p>
-                            You might be wondering how we have so many hours of videos of each dog going about their day. Well, years ago we invested in a nanny-camera technology company and now we're able to have every dog fitted with a camera-collar. The camera allows us to study each dog after their visits and update their training regimen in addition to allowing us to ensure that our dogs aren't being mistreated in any way.
+                            You might be wondering how we have so many hours of videos of each dog going about their day. Well, we've installed nanny-cameras on the collars of all our pups. The camera allows us to study each dog after their visits and update their training regimen in addition to allowing us to ensure that our dogs aren't being mistreated in any way.
                         </p>
                     </div>
                 </div>
-                <div className='content-right'>
+                {/* <div className='content-right'>
                     <div className='content-right-images'>
                         <div className='content-right-image-div'>
                             <img className='content-right-image' src={require('./assets/happy-min.png')} />
@@ -40,7 +42,7 @@ function DogTypes() {
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </section>

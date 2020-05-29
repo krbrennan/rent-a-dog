@@ -1,0 +1,142 @@
+.dogTypesSection {
+    /* background: rgba(179, 177, 177, 0.274); */
+    height: 100vh;
+    position: relative;
+}
+
+
+.content {
+    position:absolute;  
+    top: 10%;
+    margin: 1em auto;
+    margin: 0;
+    display:flex;
+    width:100%;
+    height: auto;
+    overflow: auto;
+}
+
+
+.background-img {
+    opacity: 30%;
+    position:relative;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    /* height:130vh; */
+    width: 100vw;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.background-img:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+
+.content-left {
+    /* width: 40%; */
+    margin: 3em;
+}
+
+.content-left-top-text {
+    /* text-align: left; */
+    text-align: center;
+}
+.main-text {
+    color: rgba(151, 36, 1, 0.884);
+    font-size: 200%;
+    font-weight: 700;
+}
+.sub-text {
+    color: #282c34;
+    font-size: 18px;
+}
+
+.content-left-paragraph {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-left-paragraph > p {
+    word-spacing: 0.25em;
+    width: 90%;
+    line-height: 2em;
+    margin: 0 auto;
+    /* text-align: left; */
+}
+
+
+/* right-side content */
+
+.content-right {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3em 0;
+    width: 60%;
+    /* background:green; */
+}
+.content-right-image-div {
+    margin-top: 2em;
+}
+.content-right-image {
+   width:50%;
+   border-radius: 2rem;
+}
+
+.dog-name {
+    color: rgba(151, 36, 1, 0.884);
+    font-size: 24px;
+}
+.content-right-image-div > p {
+    width:50%;
+    margin: 0 auto;
+    line-height: 2em;
+}
+
+@media (max-width: 945px) and (min-width:701px){
+    .dogTypesSection {
+        height: 130vh;
+    }
+}
+
+@media (max-width: 700px ) {
+    .dogTypesSection {
+        height: 60vh;
+    }
+    .content {
+        top: 0;
+    }
+    .content-right {
+        display: none;
+    }
+    .content-left {
+        width: 100%;
+    }
+}
+
+@media (min-width: 540px) and (max-width:650px){
+    .dogTypesSection {
+        height: 80vh;
+    }
+}
+@media (min-width: 430px) and (max-width: 539px){
+    .dogTypesSection {
+        height: 90vh;
+    }
+}
+
+@media (min-width: 350px) and (max-width:429px){
+    .dogTypesSection {
+        height: 110vh;
+    }
+}
+@media (max-width:349px) {
+    .dogTypesSection {
+        font-size: 10px;
+    }
+}

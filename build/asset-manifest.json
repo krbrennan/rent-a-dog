@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/rent-a-dog/static/css/main.c49c4c22.chunk.css",
-    "main.js": "/rent-a-dog/static/js/main.9695ffce.chunk.js",
-    "main.js.map": "/rent-a-dog/static/js/main.9695ffce.chunk.js.map",
+    "main.css": "/rent-a-dog/static/css/main.0def2320.chunk.css",
+    "main.js": "/rent-a-dog/static/js/main.6a987135.chunk.js",
+    "main.js.map": "/rent-a-dog/static/js/main.6a987135.chunk.js.map",
     "runtime-main.js": "/rent-a-dog/static/js/runtime-main.8ad67607.js",
     "runtime-main.js.map": "/rent-a-dog/static/js/runtime-main.8ad67607.js.map",
     "static/js/2.f5f8ccca.chunk.js": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js",
     "static/js/2.f5f8ccca.chunk.js.map": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js.map",
     "index.html": "/rent-a-dog/index.html",
-    "precache-manifest.62f6822906cc917c261fa438478e6e05.js": "/rent-a-dog/precache-manifest.62f6822906cc917c261fa438478e6e05.js",
+    "precache-manifest.61b6139e1f6f80b6d24113a0656f3e93.js": "/rent-a-dog/precache-manifest.61b6139e1f6f80b6d24113a0656f3e93.js",
     "service-worker.js": "/rent-a-dog/service-worker.js",
-    "static/css/main.c49c4c22.chunk.css.map": "/rent-a-dog/static/css/main.c49c4c22.chunk.css.map",
+    "static/css/main.0def2320.chunk.css.map": "/rent-a-dog/static/css/main.0def2320.chunk.css.map",
     "static/js/2.f5f8ccca.chunk.js.LICENSE.txt": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js.LICENSE.txt",
     "static/media/dog1.jpeg": "/rent-a-dog/static/media/dog1.7b3e37af.jpeg",
     "static/media/dog2.jpeg": "/rent-a-dog/static/media/dog2.f21f6de2.jpeg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.8ad67607.js",
     "static/js/2.f5f8ccca.chunk.js",
-    "static/css/main.c49c4c22.chunk.css",
-    "static/js/main.9695ffce.chunk.js"
+    "static/css/main.0def2320.chunk.css",
+    "static/js/main.6a987135.chunk.js"
   ]
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 // Components
 import About from '../2_about/About.js';
-import DogTypes from '../dogtypes/Dogtypes.js';
+import DogTypes from '../3_dogtypes/Dogtypes.js';
 import MeetDogs from '../meetDogs/MeetDogs.js';
 import Pricing from '../pricing/Pricing.js';
 import Contact from '../contact/Contact.js'
