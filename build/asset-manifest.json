@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/rent-a-dog/static/css/main.0def2320.chunk.css",
-    "main.js": "/rent-a-dog/static/js/main.6a987135.chunk.js",
-    "main.js.map": "/rent-a-dog/static/js/main.6a987135.chunk.js.map",
+    "main.css": "/rent-a-dog/static/css/main.550941dc.chunk.css",
+    "main.js": "/rent-a-dog/static/js/main.05113896.chunk.js",
+    "main.js.map": "/rent-a-dog/static/js/main.05113896.chunk.js.map",
     "runtime-main.js": "/rent-a-dog/static/js/runtime-main.8ad67607.js",
     "runtime-main.js.map": "/rent-a-dog/static/js/runtime-main.8ad67607.js.map",
     "static/js/2.f5f8ccca.chunk.js": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js",
     "static/js/2.f5f8ccca.chunk.js.map": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js.map",
     "index.html": "/rent-a-dog/index.html",
-    "precache-manifest.61b6139e1f6f80b6d24113a0656f3e93.js": "/rent-a-dog/precache-manifest.61b6139e1f6f80b6d24113a0656f3e93.js",
+    "precache-manifest.d0fea01e13287fa62c791f1760c86dfe.js": "/rent-a-dog/precache-manifest.d0fea01e13287fa62c791f1760c86dfe.js",
     "service-worker.js": "/rent-a-dog/service-worker.js",
-    "static/css/main.0def2320.chunk.css.map": "/rent-a-dog/static/css/main.0def2320.chunk.css.map",
+    "static/css/main.550941dc.chunk.css.map": "/rent-a-dog/static/css/main.550941dc.chunk.css.map",
     "static/js/2.f5f8ccca.chunk.js.LICENSE.txt": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js.LICENSE.txt",
+    "static/media/blue-background.png": "/rent-a-dog/static/media/blue-background.9a691616.png",
     "static/media/dog1.jpeg": "/rent-a-dog/static/media/dog1.7b3e37af.jpeg",
     "static/media/dog2.jpeg": "/rent-a-dog/static/media/dog2.f21f6de2.jpeg",
     "static/media/dog3.jpeg": "/rent-a-dog/static/media/dog3.3e14466a.jpeg",
@@ -21,13 +22,12 @@
     "static/media/dog7.jpeg": "/rent-a-dog/static/media/dog7.e95a2569.jpeg",
     "static/media/dog8.jpeg": "/rent-a-dog/static/media/dog8.6f8bb403.jpeg",
     "static/media/dog9.jpeg": "/rent-a-dog/static/media/dog9.1376874f.jpeg",
-    "static/media/happy-min.png": "/rent-a-dog/static/media/happy-min.243097ed.png",
     "static/media/hero.jpeg": "/rent-a-dog/static/media/hero.1baebb4e.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.8ad67607.js",
     "static/js/2.f5f8ccca.chunk.js",
-    "static/css/main.0def2320.chunk.css",
-    "static/js/main.6a987135.chunk.js"
+    "static/css/main.550941dc.chunk.css",
+    "static/js/main.05113896.chunk.js"
   ]
 }
