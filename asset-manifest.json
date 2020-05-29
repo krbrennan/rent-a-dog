@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/rent-a-dog/static/css/main.4a51558f.chunk.css",
-    "main.js": "/rent-a-dog/static/js/main.05113896.chunk.js",
-    "main.js.map": "/rent-a-dog/static/js/main.05113896.chunk.js.map",
+    "main.css": "/rent-a-dog/static/css/main.7b577e5d.chunk.css",
+    "main.js": "/rent-a-dog/static/js/main.5c4c5e12.chunk.js",
+    "main.js.map": "/rent-a-dog/static/js/main.5c4c5e12.chunk.js.map",
     "runtime-main.js": "/rent-a-dog/static/js/runtime-main.8ad67607.js",
     "runtime-main.js.map": "/rent-a-dog/static/js/runtime-main.8ad67607.js.map",
     "static/js/2.f5f8ccca.chunk.js": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js",
     "static/js/2.f5f8ccca.chunk.js.map": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js.map",
     "index.html": "/rent-a-dog/index.html",
-    "precache-manifest.b326e813b744637fcf42d3de1a44cdeb.js": "/rent-a-dog/precache-manifest.b326e813b744637fcf42d3de1a44cdeb.js",
+    "precache-manifest.25b6aeb01a5c558b59c2b723dd6d933c.js": "/rent-a-dog/precache-manifest.25b6aeb01a5c558b59c2b723dd6d933c.js",
     "service-worker.js": "/rent-a-dog/service-worker.js",
-    "static/css/main.4a51558f.chunk.css.map": "/rent-a-dog/static/css/main.4a51558f.chunk.css.map",
+    "static/css/main.7b577e5d.chunk.css.map": "/rent-a-dog/static/css/main.7b577e5d.chunk.css.map",
     "static/js/2.f5f8ccca.chunk.js.LICENSE.txt": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js.LICENSE.txt",
-    "static/media/blue-background.png": "/rent-a-dog/static/media/blue-background.9a691616.png",
     "static/media/dog1.jpeg": "/rent-a-dog/static/media/dog1.7b3e37af.jpeg",
     "static/media/dog2.jpeg": "/rent-a-dog/static/media/dog2.f21f6de2.jpeg",
     "static/media/dog3.jpeg": "/rent-a-dog/static/media/dog3.3e14466a.jpeg",
@@ -27,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.8ad67607.js",
     "static/js/2.f5f8ccca.chunk.js",
-    "static/css/main.4a51558f.chunk.css",
-    "static/js/main.05113896.chunk.js"
+    "static/css/main.7b577e5d.chunk.css",
+    "static/js/main.5c4c5e12.chunk.js"
   ]
 }
