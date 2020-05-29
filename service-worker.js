@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rent-a-dog/precache-manifest.61b6139e1f6f80b6d24113a0656f3e93.js"
+  "/rent-a-dog/precache-manifest.d0fea01e13287fa62c791f1760c86dfe.js"
 );
 
 self.addEventListener('message', (event) => {
