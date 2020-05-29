@@ -1,6 +1,7 @@
 .dogTypesSection {
     /* background: rgba(179, 177, 177, 0.274); */
-    height: 100vh;
+    background: linear-gradient(#ec8989b4, rgb(255, 255, 255));
+    height: 75vh;
     position: relative;
 }
 
@@ -17,18 +18,17 @@
 }
 
 
-.background-img {
+/* .background-img {
     position:relative;
     background-position: center center;
     background-size: cover;
     height: 100%;
-    /* height:130vh; */
     width: 100vw;
     background-repeat: no-repeat;
     justify-content: center;
     margin: 0;
     padding: 0;
-}
+} */
 .background-img:after {
     clear: both;
     content: "";
@@ -59,6 +59,10 @@
 .content-left-paragraph {
     display: flex;
     flex-direction: column;
+}
+.content-p {
+    font-size: 14px;
+    padding: 10px;
 }
 
 .content-left-paragraph > p {
@@ -97,12 +101,33 @@
     line-height: 2em;
 }
 
-@media (max-width: 945px) and (min-width:701px){
-    .dogTypesSection {
-        height: 130vh;
+@media (max-width: 945px){
+    .content-p {
+        font-size: 11px;
     }
 }
 
+@media (max-width: 690px) {
+    .content {
+        top: 1%;
+    }
+    .content-p {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 500px) {
+    .content {
+        top:-3%;
+    }
+}
+
+@media (max-width: 420px) {
+    .content-p {
+        font-size: 7px;
+    }
+}
+/*
 @media (max-width: 700px ) {
     .dogTypesSection {
         height: 60vh;
@@ -138,4 +163,4 @@
     .dogTypesSection {
         font-size: 10px;
     }
-}
+} */

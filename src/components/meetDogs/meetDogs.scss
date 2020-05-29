@@ -75,12 +75,14 @@
 
 @media (max-width: 750px) {
     .container h3 {
+        top:13%;
         font-size: 25px;
     }
 }
 
 @media (max-width: 589px) {
     .container h3 {
+        top:17%;
         max-width: 80vw;
         font-size: 20px;
     }
@@ -99,6 +101,11 @@
 }
 
 @media (max-width: 380px) {
+    .container h3 {
+        top:15%;
+        max-width: 80vw;
+        font-size: 15px;
+    }
     .meet-dogs-background {
         height: 150vh;
     }

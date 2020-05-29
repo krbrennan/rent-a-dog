@@ -1,6 +1,7 @@
 section {
     height: 100%;
     width: 100vw;
+    margin-bottom: 2em;
 }
 
 .about-info {
@@ -99,6 +100,7 @@ section {
     text-align: center;
 }
 .about-right-card {
+    font-size: 14px;
     width: 40%;
     background: white;
 }
@@ -110,6 +112,7 @@ span {
 }
 
 .about-right-card-text > p {
+    font-size: 12px;
     font-weight: 100;
     line-height: 1.5em;
 }

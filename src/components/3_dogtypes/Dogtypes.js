@@ -5,7 +5,7 @@ import './dogtypes.css'
 function DogTypes() {
     return(
         <section className='dogTypesSection'>
-            <img className='background-img' src={require('./assets/blue-background.png')}></img>
+            {/* <img className='background-img' src={require('./assets/blue-background.png')}></img> */}
             <div className='content'>
 
                 <div className='content-left'>
@@ -14,13 +14,13 @@ function DogTypes() {
                         <h4 className='sub-text'>Find a dog that fits YOU</h4>
                     </div>
                     <div className='content-left-paragraph'>
-                        <p>
+                        <p className='content-p'>
                             We Want you to feel confident and safe in the pup you choose to spend time with. If you're dealing with an injury or ailment and are seeking our service in order to get some of that authentic doggy-lovin' then you might not want a high-energy Collie or massive Mastiff, you might want a relaxed lap dog that doesn't bark at the wind.
                         </p>
-                        <p>
+                        <p className='content-p'>
                             Maybe you want a running-buddy or a dog to go on hikes with--we want to help you find a dog with a personality that coinsides with what you're seeking. With our services you can watch videos and look at up-to-date personality profiles of our pups which helps you get a well-rounded view to help you decide on what you'd like.
                         </p>
-                        <p>
+                        <p className='content-p'>
                             You might be wondering how we have so many hours of videos of each dog going about their day. Well, we've installed nanny-cameras on the collars of all our pups. The camera allows us to study each dog after their visits and update their training regimen in addition to allowing us to ensure that our dogs aren't being mistreated in any way.
                         </p>
                     </div>
