@@ -1,4 +1,3 @@
-
 section {
     height: 100%;
     width: 100vw;
@@ -41,7 +40,6 @@ section {
     color: rgba(151, 36, 1, 0.884);
 }
 
-
 .download-app {
     border: 1px solid grey;
     box-shadow: 1px 1px 1px black;
@@ -51,7 +49,6 @@ section {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    /* border: 4px solid yellow; */
     align-items: center;
     width: 50%;
 }
@@ -60,7 +57,6 @@ section {
 #about-section > div > div.about-left > div > div > div.download-app > a > button {
     text-decoration: none;
     color: white;
-    /* width: 120%; */
     border-radius: 40px;
     background: rgba(151, 36, 1, 0.884);
     margin: 0;
@@ -74,21 +70,19 @@ section {
     transition: all 500ms ease-in-out;
 }
 #about-section > div > div.about-left > div > div > div.download-app > a > button:hover {
-    /* background-color: #282c34; */
     transform: scale(1.1);
     cursor: pointer;
 }
 
 .meet-our-dogs-p {
     font-weight: 700;
-    /* font-size: 40rem; */
 }
 
 /* right side */
 
 .about-right {
     height: 100%;
-    /* background: black; */
+    margin: 0 auto;
     display: flex;
     width: 50%;
     justify-content: center;
@@ -98,7 +92,6 @@ section {
     margin-top: 3em;
     display: flex;
     width: 100%;
-    /* background: green; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -107,7 +100,6 @@ section {
 }
 .about-right-card {
     width: 40%;
-    /* margin: 0.5em 0; */
     background: white;
 }
 
@@ -118,7 +110,6 @@ span {
 }
 
 .about-right-card-text > p {
-    /* font-size: 14px; */
     font-weight: 100;
     line-height: 1.5em;
 }
