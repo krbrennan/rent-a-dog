@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c621ff8860d8e1c42ba25e547dd1894",
+    "revision": "b6aeb9ac466b7e4f8128c33e383c42fb",
     "url": "/rent-a-dog/index.html"
   },
   {
-    "revision": "12576ebbae5563f5b5ed",
-    "url": "/rent-a-dog/static/css/main.550941dc.chunk.css"
+    "revision": "8fe5062e581cf1dd0c59",
+    "url": "/rent-a-dog/static/css/main.4a51558f.chunk.css"
   },
   {
     "revision": "6f1ccfb693631710abaa",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rent-a-dog/static/js/2.f5f8ccca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "12576ebbae5563f5b5ed",
+    "revision": "8fe5062e581cf1dd0c59",
     "url": "/rent-a-dog/static/js/main.05113896.chunk.js"
   },
   {
